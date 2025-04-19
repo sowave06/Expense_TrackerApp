@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# BlockBase - Expense Tracker dApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A decentralized expense tracker built using **React**, **Solidity**, and **CSS**, allowing users to track shared expenses on the Ethereum blockchain using the Sepolia testnet.
 
-## Available Scripts
+## 🚀 Overview
 
-In the project directory, you can run:
+This project helps you track and split expenses among participants by leveraging Ethereum smart contracts. It consists of:
 
-### `npm start`
+- **React**: Frontend framework
+- **Solidity**: Smart contract for on-chain functionality
+- **CSS**: Styling (optional to modify)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Project Links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Smart Contract Code](https://drive.google.com/file/d/1k-6iEU_t9N0nUZYGleKm1_tq1KEcM-Xt/view?usp=share_link)
+- [React Code](https://drive.google.com/file/d/1GUq_QGXZEJ13SC28TAFVBFHYJrNQqk0K/view?usp=share_link)
+- [CSS File](https://drive.google.com/file/d/1SjbwH6tnLY1ppepZiJqlnT8xCt021-mr/view?usp=share_link)
+- [ABI File](https://drive.google.com/file/d/1jePTtpOWQ30rOHb2e7fm6Nt_PWqHu82P/view?usp=share_link)
 
-### `npm test`
+> 💡 Understanding the CSS is optional. ABI is provided for ease of integration.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧰 Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Before running the project, ensure the following are set up:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+2. MetaMask extension (Chrome/Firefox)
+3. Sepolia Testnet ETH (Get it from a [Sepolia faucet](https://sepoliafaucet.com))
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Running the DApp
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Create a new React app:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   npx create-react-app expense-tracker-dapp
+   cd expense-tracker-dapp
