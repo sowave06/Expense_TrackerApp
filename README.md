@@ -35,7 +35,7 @@ Before running the project, ensure the following are set up:
 ---
 ## Updated Feature
 
-  #Get Your Own Name
+  Get Your Own Name
   -Allows a user to retrieve their registered name using their wallet address.
 ```solidity
 function getYourName() public view returns (string memory) {
