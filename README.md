@@ -31,10 +31,3 @@ Before running the project, ensure the following are set up:
 
 ---
 
-## 🛠️ Running the DApp
-
-1. Create a new React app:
-
-   ```bash
-   npx create-react-app expense-tracker-dapp
-   cd expense-tracker-dapp
