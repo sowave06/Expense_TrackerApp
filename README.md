@@ -33,4 +33,19 @@ Before running the project, ensure the following are set up:
 3. Sepolia Testnet ETH (Get it from a [Sepolia faucet](https://sepoliafaucet.com))
 
 ---
+## Updated Feature
+
+  #Get Your Own Name
+  -Allows a user to retrieve their registered name using their wallet address.
+```solidity
+function getYourName() public view returns (string memory) {
+    require(
+        people[msg.sender].walletAddress != address(0),
+        "User not registered"
+    );
+    return people[msg.sender].name;
+}
+```
+
+---
 
