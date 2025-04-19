@@ -10,6 +10,9 @@ This project helps you track and split expenses among participants by leveraging
 - **Solidity**: Smart contract for on-chain functionality
 - **CSS**: Styling (optional to modify)
 
+![Alt text](https://github.com/sowave06/Expense_TrackerApp/blob/main/%7B3BEDBC8C-9399-4289-A676-7FE698ED2AE7%7D.png)
+
+
 ## 📁 Project Links
 
 - [Smart Contract Code](https://drive.google.com/file/d/1k-6iEU_t9N0nUZYGleKm1_tq1KEcM-Xt/view?usp=share_link)
